@@ -82,8 +82,6 @@ Tingkat kepercayaan model bahwa pasien memiliki risiko penyakit kardiovaskular (
     
     ![image](https://github.com/user-attachments/assets/aee05841-3743-4069-8175-a73a9ab70751)
 
-    Model untuk prediksi penyakit kardiovaskular menunjukkan performa yang cukup baik dengan akurasi 73.18% dan AUC 0.7955, yang berarti model cukup mampu membedakan antara pasien yang berisiko dan tidak.
-
 16. Referensi
     - Kaggle: https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset
     - Jurnal: https://pmc.ncbi.nlm.nih.gov/articles/PMC10621606/
