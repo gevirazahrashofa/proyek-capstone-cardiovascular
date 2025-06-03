@@ -12,7 +12,7 @@ Sistem ini menggunakan neural network untuk memprediksi risiko penyakit kardiova
 | Mudah Diketahui          | age         | Usia dalam tahun                 | Integer        | Input langsung                                                         |
 |                            | gender      | Jenis kelamin                    | Integer | Pilihan (0: Perempuan, 1: Laki-laki)                                   |
 |                            | height      | Tinggi badan (cm)                | Integer        | Bisa diukur sendiri                                                    |
-|                            | weight      | Berat badan (kg)                 | Float/Integer  | Bisa ditimbang sendiri                                                 |
+|                            | weight      | Berat badan (kg)                 | Float  | Bisa ditimbang sendiri                                                 |
 | Perlu Pemeriksaan Medis | ap\_hi      | Tekanan darah sistolik           | Integer        | Perlu tensimeter                                                       |
 |                            | ap\_lo      | Tekanan darah diastolik          | Integer        | Perlu tensimeter                                                       |
 |                            | cholesterol | Kadar kolesterol                 | Integer | Perlu tes darah                                                        |
