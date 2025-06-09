@@ -9,14 +9,14 @@ Sistem ini menggunakan neural network untuk memprediksi risiko penyakit kardiova
 
 | Kategori Data              | Fitur       | Deskripsi                        | Tipe Data      | Cara Input / Keterangan                                                |
 | -------------------------- | ----------- | -------------------------------- | -------------- | ---------------------------------------------------------------------- |
-| Mudah Diketahui          | age         | Usia dalam tahun                 | Integer        | Input langsung                                                         |
+| Mudah Diketahui          | age         | Usia dalam tahun                 | Integer        | Input langsung. Contoh: 20                                                   |
 |                            | gender      | Jenis kelamin                    | Integer | Pilihan (0: Perempuan, 1: Laki-laki)                                   |
-|                            | height      | Tinggi badan (cm)                | Integer        | Bisa diukur sendiri                                                    |
-|                            | weight      | Berat badan (kg)                 | Float  | Bisa ditimbang sendiri                                                 |
-| Perlu Pemeriksaan Medis | ap\_hi      | Tekanan darah sistolik           | Integer        | Perlu tensimeter                                                       |
-|                            | ap\_lo      | Tekanan darah diastolik          | Integer        | Perlu tensimeter                                                       |
-|                            | cholesterol | Kadar kolesterol                 | Integer | Perlu tes darah                                                        |
-|                            | gluc        | Kadar gula darah                 | Integer | Perlu tes gula                                                         |
+|                            | height      | Tinggi badan (cm)                | Integer        | Bisa diukur sendiri. Contoh: 163                                            |
+|                            | weight      | Berat badan (kg)                 | Float  | Bisa ditimbang sendiri. Contoh: 58                                                 |
+| Perlu Pemeriksaan Medis | ap\_hi      | Tekanan darah sistolik           | Integer        | Perlu tensimeter. Contoh 115                                                  |
+|                            | ap\_lo      | Tekanan darah diastolik          | Integer        | Perlu tensimeter. Contoh 75                                                       |
+|                            | cholesterol | Kadar kolesterol                 | Integer | Perlu tes darah (1: Kolesterol normal, 2: Kolesterol diatas normal)                                                        |
+|                            | gluc        | Kadar gula darah                 | Integer | Perlu tes gula (1: Glukosa normal, 2: Glukosa diatas normal)                                                         |
 | Gaya Hidup              | smoke       | Status merokok                   | Integer | Input: Ya/Tidak (0: Tidak, 1: Ya)                                      |
 |                            | alco        | Konsumsi alkohol                 | Integer | Input: Ya/Tidak (0: Tidak, 1: Ya)                                      |
 |                            | active      | Aktivitas fisik rutin            | Integer | Input: Ya/Tidak (0: Tidak aktif, 1: Aktif); olahraga ≥150 menit/minggu |
